@@ -4,6 +4,7 @@
 xcode
 * ctl+cmd+up/down : h <-> m 파일 교환
 
+
 인터페이스와 연결
 * 함수든 변수든 인터페이스에서 타입이 인식 되어야 연결 가능
 * 버튼 클릭함수는 ```- (IBAction)onClick:(id)sender;``` 같은 형식.

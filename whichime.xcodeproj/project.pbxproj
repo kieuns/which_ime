@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A586B612949823B001F8030 /* KCVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A586B602949823A001F8030 /* KCVisualizer.m */; };
 		E516EC8A2945AC99004CBDF7 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E516EC702945AA72004CBDF7 /* ShortcutRecorder.framework */; };
 		E516EC8B2945AC99004CBDF7 /* ShortcutRecorder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E516EC702945AA72004CBDF7 /* ShortcutRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E516EC8E2945B23B004CBDF7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E516EC8D2945B23B004CBDF7 /* README.md */; };
@@ -55,6 +56,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A586B5F2949823A001F8030 /* KCVisualizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCVisualizer.h; sourceTree = "<group>"; };
+		3A586B602949823A001F8030 /* KCVisualizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCVisualizer.m; sourceTree = "<group>"; };
 		E516EC672945AA72004CBDF7 /* ShortcutRecorder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShortcutRecorder.xcodeproj; path = whichime/external/ShortcutRecorder/ShortcutRecorder.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E516EC8D2945B23B004CBDF7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E5640B9C29457D8F00099272 /* whichime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whichime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +134,8 @@
 				E5640BA429457D9200099272 /* MainMenu.xib */,
 				E5640BA729457D9200099272 /* main.m */,
 				E5640BA929457D9200099272 /* whichime.entitlements */,
+				3A586B5F2949823A001F8030 /* KCVisualizer.h */,
+				3A586B602949823A001F8030 /* KCVisualizer.m */,
 			);
 			path = whichime;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 			files = (
 				E5640BA829457D9200099272 /* main.m in Sources */,
 				E5640BA129457D8F00099272 /* AppDelegate.m in Sources */,
+				3A586B612949823B001F8030 /* KCVisualizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
