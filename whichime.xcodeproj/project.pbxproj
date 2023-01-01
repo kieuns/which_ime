@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3A586B612949823B001F8030 /* KCVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A586B602949823A001F8030 /* KCVisualizer.m */; };
+		3AF08C9729597B3C00461004 /* KCKeycastrEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF08C9629597B3C00461004 /* KCKeycastrEvent.m */; };
+		3AF08C9D2959826B00461004 /* KCKeystrokeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF08C9C2959826B00461004 /* KCKeystrokeTransformer.m */; };
+		3AF08CA0295982CF00461004 /* KCKeystroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF08C9F295982CF00461004 /* KCKeystroke.m */; };
+		3AF08CA229598CE900461004 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF08CA129598CE900461004 /* QuartzCore.framework */; };
+		3AF08CA429598CF100461004 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF08CA329598CF100461004 /* Carbon.framework */; };
+		3AF08CA629598CFD00461004 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF08CA529598CFD00461004 /* Quartz.framework */; };
+		3AF08CA829598D0300461004 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF08CA729598D0300461004 /* Cocoa.framework */; };
+		3AF08CAA29598D0B00461004 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF08CA929598D0B00461004 /* AppKit.framework */; };
+		3AF08CAC29598D1600461004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF08CAB29598D1600461004 /* Foundation.framework */; };
+		3AF08CAF2959904C00461004 /* KCKeyboardTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF08CAE2959904C00461004 /* KCKeyboardTap.m */; };
 		E516EC8A2945AC99004CBDF7 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E516EC702945AA72004CBDF7 /* ShortcutRecorder.framework */; };
 		E516EC8B2945AC99004CBDF7 /* ShortcutRecorder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E516EC702945AA72004CBDF7 /* ShortcutRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E516EC8E2945B23B004CBDF7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E516EC8D2945B23B004CBDF7 /* README.md */; };
@@ -58,6 +68,20 @@
 /* Begin PBXFileReference section */
 		3A586B5F2949823A001F8030 /* KCVisualizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCVisualizer.h; sourceTree = "<group>"; };
 		3A586B602949823A001F8030 /* KCVisualizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCVisualizer.m; sourceTree = "<group>"; };
+		3AF08C9529597B3C00461004 /* KCKeycastrEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCKeycastrEvent.h; sourceTree = "<group>"; };
+		3AF08C9629597B3C00461004 /* KCKeycastrEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCKeycastrEvent.m; sourceTree = "<group>"; };
+		3AF08C9B2959826B00461004 /* KCKeystrokeTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCKeystrokeTransformer.h; sourceTree = "<group>"; };
+		3AF08C9C2959826B00461004 /* KCKeystrokeTransformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCKeystrokeTransformer.m; sourceTree = "<group>"; };
+		3AF08C9E295982CF00461004 /* KCKeystroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCKeystroke.h; sourceTree = "<group>"; };
+		3AF08C9F295982CF00461004 /* KCKeystroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCKeystroke.m; sourceTree = "<group>"; };
+		3AF08CA129598CE900461004 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3AF08CA329598CF100461004 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		3AF08CA529598CFD00461004 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		3AF08CA729598D0300461004 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3AF08CA929598D0B00461004 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3AF08CAB29598D1600461004 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AF08CAD2959904C00461004 /* KCKeyboardTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKeyboardTap.h; sourceTree = "<group>"; };
+		3AF08CAE2959904C00461004 /* KCKeyboardTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKeyboardTap.m; sourceTree = "<group>"; };
 		E516EC672945AA72004CBDF7 /* ShortcutRecorder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShortcutRecorder.xcodeproj; path = whichime/external/ShortcutRecorder/ShortcutRecorder.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E516EC8D2945B23B004CBDF7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E5640B9C29457D8F00099272 /* whichime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whichime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +98,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF08CA229598CE900461004 /* QuartzCore.framework in Frameworks */,
+				3AF08CA829598D0300461004 /* Cocoa.framework in Frameworks */,
+				3AF08CA429598CF100461004 /* Carbon.framework in Frameworks */,
+				3AF08CAA29598D0B00461004 /* AppKit.framework in Frameworks */,
 				E516EC8A2945AC99004CBDF7 /* ShortcutRecorder.framework in Frameworks */,
+				3AF08CAC29598D1600461004 /* Foundation.framework in Frameworks */,
+				3AF08CA629598CFD00461004 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +132,12 @@
 		E516EC892945AC99004CBDF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3AF08CAB29598D1600461004 /* Foundation.framework */,
+				3AF08CA929598D0B00461004 /* AppKit.framework */,
+				3AF08CA729598D0300461004 /* Cocoa.framework */,
+				3AF08CA529598CFD00461004 /* Quartz.framework */,
+				3AF08CA329598CF100461004 /* Carbon.framework */,
+				3AF08CA129598CE900461004 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,6 +163,8 @@
 		E5640B9E29457D8F00099272 /* whichime */ = {
 			isa = PBXGroup;
 			children = (
+				3AF08CAD2959904C00461004 /* KCKeyboardTap.h */,
+				3AF08CAE2959904C00461004 /* KCKeyboardTap.m */,
 				E516EC8D2945B23B004CBDF7 /* README.md */,
 				E5640B9F29457D8F00099272 /* AppDelegate.h */,
 				E5640BA029457D8F00099272 /* AppDelegate.m */,
@@ -136,6 +174,12 @@
 				E5640BA929457D9200099272 /* whichime.entitlements */,
 				3A586B5F2949823A001F8030 /* KCVisualizer.h */,
 				3A586B602949823A001F8030 /* KCVisualizer.m */,
+				3AF08C9529597B3C00461004 /* KCKeycastrEvent.h */,
+				3AF08C9629597B3C00461004 /* KCKeycastrEvent.m */,
+				3AF08C9B2959826B00461004 /* KCKeystrokeTransformer.h */,
+				3AF08C9C2959826B00461004 /* KCKeystrokeTransformer.m */,
+				3AF08C9E295982CF00461004 /* KCKeystroke.h */,
+				3AF08C9F295982CF00461004 /* KCKeystroke.m */,
 			);
 			path = whichime;
 			sourceTree = "<group>";
@@ -241,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF08C9D2959826B00461004 /* KCKeystrokeTransformer.m in Sources */,
+				3AF08CA0295982CF00461004 /* KCKeystroke.m in Sources */,
+				3AF08CAF2959904C00461004 /* KCKeyboardTap.m in Sources */,
 				E5640BA829457D9200099272 /* main.m in Sources */,
 				E5640BA129457D8F00099272 /* AppDelegate.m in Sources */,
+				3AF08C9729597B3C00461004 /* KCKeycastrEvent.m in Sources */,
 				3A586B612949823B001F8030 /* KCVisualizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 82R3F34JVW;
+				DEVELOPMENT_TEAM = 839S968R5J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -392,6 +440,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kieuns.app.whichime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -407,7 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 82R3F34JVW;
+				DEVELOPMENT_TEAM = 839S968R5J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -418,6 +467,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kieuns.app.whichime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -10,7 +10,6 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     IBOutlet NSTextField* textField;
     IBOutlet NSScrollView* scrollView;
-    
     // 타이머
     NSTimer* timer;
 }
